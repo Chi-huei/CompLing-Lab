@@ -1,5 +1,6 @@
 def process_input(text):
-    return text[0], text[-1]
+    return text.title()
+
 
 def main():
     text = input("Enter a sentence: ")
